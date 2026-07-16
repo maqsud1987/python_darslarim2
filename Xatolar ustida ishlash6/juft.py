@@ -1,7 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 12 22:27:22 2026
+""" Berilgan sonlar ro'yxatidan juft sonlarni ajratib oluvchi funksiya """
 
-@author: user
-"""
-
+def juftmi(son):
+    
+    if son%2==0:
+        return "Juft"
+    else:
+        return "Juft emas"
+        
